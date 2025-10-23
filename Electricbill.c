@@ -5,7 +5,7 @@ FUNCTIONS
 #include<stdio.h>
 // Declaration of function to calculate Electric bill 
 
-float calculateElectricBill(int units) {
+int calculateElectricBill(int units) {
 // Function definition 
     int bill = 0;
     if (units <= 100) {
